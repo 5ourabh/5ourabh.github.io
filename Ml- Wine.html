@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Wine Quality Prediction</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: MyResume
+  * Updated: Jan 29 2024 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <main id="main">
+    
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      
+      <div class="container">
+        <h3>Wine Quality Prediction</h3>
+        <div class="row gy-0">
+
+          <div class="col-lg-0">
+            <div class="portfolio-details-slider swiper">
+              <div class="swiper-wrapper align-items-center">
+                
+                <div class="swiper-slide">
+                  <img src="C:/Users/Ghanshyam Joshi/Desktop/Portfolio/photos/WINE QUALITY PREDICTION .png" alt="" style="max-width: 50%; max-height: 50%; display: block; margin: 0 auto;">
+                </div>
+                <div class="swiper-slide">
+                  <img src="C:/Users/Ghanshyam Joshi/Desktop/Portfolio/Template for Website/Images/Ml- Wine/head3.png" alt="" style="max-width: 50%; max-height: 50%; display: block; margin: 0 auto;">
+                </div>
+                <div class="swiper-slide">
+                  <img src="C:/Users/Ghanshyam Joshi/Desktop/Portfolio/Template for Website/Images/Ml- Wine/head.jpeg" alt="" style="max-width: 50%; max-height: 50%; display: block; margin: 0 auto;">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-20">
+            <div class="portfolio-info">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong>: Machine Learning & AI</li>
+                <li><strong>Client</strong>: Academic Project</li>
+                <li><strong>Project date</strong>: April 28, 2023</li>
+                <li><strong>Collaboration</strong>: Prabhnoor Kaur<a href="#"> www.example.com</a></li>
+              </ul>
+            </div>
+            <div class="portfolio-description">
+              <h2>Wine Quality Prediction</h2>
+              <p>
+                In this project, conducted as part of the MBAN - Machine Learning & AI course, we aim to analyze datasets related to wine quality and classification of red and white variants of Portuguese "Vinho Verde" wine. 
+                Vinho Verde is a renowned product from the Minho region of Portugal, appreciated for its medium alcohol content and freshness, especially during the summer months. 
+                The datasets used in this project are publicly available for research purposes and were provided by P. Cortez, A. Cerdeira, F. Almeida, T. Matos, and J. Reis.
+              </p>
+
+              
+              <h2>Problem Statement:</h2>
+              <p>
+                The main objective of this project is to predict wine quality based on physicochemical properties using Random Forests. We will approach this problem in three parts:
+                
+                <ul>
+                  <li><strong>Data Preprocessing:</strong> We will begin by downloading the datasets for both white and red wines from the UCI repository and performing necessary preprocessing steps to clean and prepare the data for analysis.</li>
+                  <li><strong>Predicting Wine Quality (Regression Problem):</strong> Using the dataset containing only white wines, we will treat wine quality as a continuous numerical variable and employ Random Forests to identify the most important predictors and make predictions. We will compare the performance of the Random Forest model with a parametric model.</li>
+                  <li><strong>Predicting Wine Quality (Classification Problem):</strong> In this phase, we will regroup the outcome variable "quality" into "less-than-average" and "better-than-average" categories, creating a binary variable. We will again use Random Forests to identify important predictors and make predictions. We will report metrics such as AUC, uncertainty, and confusion table to evaluate the model's performance.</li>
+                  <li><strong>Predicting Wine Type (Red or White):</strong> Finally, we will append both white and red wine datasets and create a unified dataset with an identifier for each wine type. We will then use parametric and non-parametric classifiers to predict the wine type and select the model with the best predictive power based on AUC and uncertainty metrics. Important predictors will be identified, and the final results using the test data will be reported.</li>
+                </ul>
+              </p>
+              <h2>Approach:</h2>
+              <p>
+                
+                <ul>
+                  <li><strong>Data Collection and Preprocessing:</strong> We will download the datasets for white and red wines from the UCI repository and perform data cleaning and preprocessing steps, including handling missing values, scaling features, and encoding categorical variables.</li>
+                  <li><strong>Predicting Wine Quality (Regression):</strong> For the regression problem, we will treat wine quality as a continuous numerical variable and use Random Forests to identify important predictors and make predictions. We will compare the performance of the Random Forest model with a parametric model such as linear regression.</li>
+                  <li><strong>Predicting Wine Quality (Classification):</strong> In this phase, we will categorize wine quality into "less-than-average" and "better-than-average" categories and use Random Forests to predict wine quality. We will evaluate the model's performance using AUC, uncertainty, and confusion table metrics.</li>
+                  <li><strong>Predicting Wine Type (Red or White):</strong> Finally, we will combine both white and red wine datasets, create a unified dataset with identifiers for each wine type, and use various classifiers to predict the wine type. We will select the model with the best predictive power based on AUC and uncertainty metrics and report important predictors.</li>
+                </ul>
+                By following this approach, we aim to provide actionable insights into predicting wine quality and type using physicochemical properties, which can be valuable for wine companies and enthusiasts alike.
+
+              </p>
+              <div>
+                <iframe src="Sourabh_Wine.html" frameborder="0" scrolling="auto" width="100%" height="1000"></iframe>
+            </div>
+
+            <h2>Conclusion:</h2>
+              <p>
+                Based on the analysis conducted:
+                <ul>
+                  <li><strong>Prediction of Wine Quality:</strong> <p>Random Forest models outperformed Linear Regression in predicting wine quality, as evidenced by lower Root Mean Squared Prediction Error (RMSPE).</p>
+                  <p>The Random Forest model achieved a mean RMSPE of approximately 0.656, indicating its ability to predict wine quality with high accuracy.</p>
+                  <p>Alcohol content emerged as the most influential predictor of wine quality, followed by chlorides and citric acid.</p></li>
+                  <li><strong>Classification of Wine Quality:</strong> <p>Random Forest models demonstrated higher predictive accuracy, measured by Area Under the Curve (AUC), compared to Linear Regression in classifying wines as "More-than Average" or "Less-than Average" based on their quality ratings.</p>
+                    <p>The Random Forest model achieved a mean AUC of approximately 0.862, indicating its effectiveness in distinguishing between wine quality categories.</p></li>
+                  <li><strong>Prediction of Wine Type:</strong> <p>Both Random Forest and Linear Regression models achieved high accuracy in classifying wines as white or red based on combined dataset analysis.</p>
+                    <p>Random Forest models, however, exhibited slightly higher predictive performance compared to Linear Regression in this classification task.</p></li>
+                  <li><strong>Overall Accuracy and Conclusion:</strong> <p>Random Forest models demonstrated superior predictive accuracy across all tasks, including wine quality prediction and wine type classification.</p>
+                    <p>The consistent performance of Random Forest models highlights their effectiveness in accurately predicting wine characteristics and types.</p>
+                    <p>These findings underscore the importance of utilizing Random Forest models, particularly when predicting wine quality and classifying wine types, to ensure high accuracy and reliable predictions.</p></li>
+                </ul>
+                In conclusion, the analysis confirms the robustness and accuracy of Random Forest models in predicting wine quality and classifying wine types, providing valuable insights for wine industry applications.
+              </p>
+              
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details Section -->
+
+  </main><!-- End #main -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
