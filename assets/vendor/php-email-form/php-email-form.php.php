@@ -1,6 +1,6 @@
 <?php
 class PHP_Email_Form {
-    private $to = "contact@example.com"; // Default receiving email address
+    private $to = "joshisourabh21june@gmail.com"; // Default receiving email address
     private $from_name;
     private $from_email;
     private $subject;
