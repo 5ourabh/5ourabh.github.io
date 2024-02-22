@@ -1,6 +1,7 @@
 <?php
+
 class PHP_Email_Form {
-    private $to = "joshisourabh21june@gmail.com"; // Default receiving email address
+    private $to;
     private $from_name;
     private $from_email;
     private $subject;
@@ -33,4 +34,5 @@ class PHP_Email_Form {
         }
     }
 }
+
 ?>
